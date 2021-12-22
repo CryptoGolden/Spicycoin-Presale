@@ -173,9 +173,6 @@ export default function Whitelist() {
                   </StyledInput>
                   { account ? 
                     ( isAllowed ?
-                      // <ButtonPrimary type="submit" style={{ margin: '20px 0 0 0' }}>
-                      //   {t('Approve MIM')}
-                      // </ButtonPrimary>
                       <RowBetween>
                         {approval !== ApprovalState.APPROVED && (
                           <ButtonPrimary
