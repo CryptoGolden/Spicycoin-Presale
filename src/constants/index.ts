@@ -25,8 +25,8 @@ type ChainTokenList = {
 }
 
 export const PNG: { [chainId in ChainId]: Token } = {
-  [ChainId.FUJI]: new Token(ChainId.FUJI, '0xc1704234f31548394f123dc3b1a7ed5125e94842', 9, 'SPC', 'SpicyCoin'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0xc1704234f31548394f123dc3b1a7ed5125e94842', 9, 'SPC', 'SpicyCoin')
+  [ChainId.FUJI]: new Token(ChainId.FUJI, '0x6007fca39b5398feac4d06d75435a564a086bab8', 9, 'SPC', 'SpicyCoin'),
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0x6007fca39b5398feac4d06d75435a564a086bab8', 9, 'SPC', 'SpicyCoin')
 }
 
 export const MIM: { [chainId in ChainId]: Token } = {
